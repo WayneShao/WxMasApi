@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\iwxmasservice.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\wxmasservice.svc.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\model\reservation.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Visual Studio 2017\Projects\WxMasApi\WxMasApi\Model\UserInfo.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Visual Studio 2017\Projects\WxMasApi\WxMasApi\RetJson.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>WxMasApi</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
