@@ -10,13 +10,13 @@ namespace WxMasApi
     public interface IWxMasService
     {
         [OperationContract]
-        string GetUserInfoByIdcardNum(string idcardNum);
+        List<UserInfo> GetUserInfoByIdcardNum(string idcardNum);
 
         [OperationContract]
-        string GetUserReservationItems(string patientId);
+        List<Reservation> GetUserReservationItems(string patientId);
 
         [OperationContract]
-        string GetTimeRangesInDate(DateTime date, string reservationId);
+        List<TimeRange> GetTimeRangesInDate(DateTime date, string reservationId);
 
         [OperationContract]
         bool AppointmentReservation(string reservationId, TimeRange range);

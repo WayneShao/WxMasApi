@@ -12,9 +12,9 @@ namespace WxMasApi
         /// </summary>
         /// <param name="idcardNum"></param>
         /// <returns></returns>
-        public string GetUserInfoByIdcardNum(string idcardNum)
+        public List<UserInfo> GetUserInfoByIdcardNum(string idcardNum)
         {
-            return JsonHelper.Serialize(
+            return //JsonHelper.Serialize(
                 new List<UserInfo>
                 {
                     new UserInfo
@@ -22,8 +22,8 @@ namespace WxMasApi
                         Name = "陈家辉",
                         PatientId = "00001"
                     }
-                }
-            );
+                };
+            //);
         }
 
         /// <summary>
@@ -31,49 +31,46 @@ namespace WxMasApi
         /// </summary>
         /// <param name="patientId"></param>
         /// <returns></returns>
-        public string GetUserReservationItems(string patientId)
+        public List<Reservation> GetUserReservationItems(string patientId)
         {
-            return JsonHelper.Serialize(
+            return //JsonHelper.Serialize(
                 new List<Reservation>
                 {
                     new Reservation
                     {
-                        Id="1",
+                        Id = "1",
                         Date = Convert.ToDateTime("2017/5/30"),
                         BeginTime = Convert.ToDateTime("2017/5/30 08:00:00"),
                         EndTime = Convert.ToDateTime("2017/5/30 08:15:00"),
                         Department = "肛肠科",
                         Status = "0",
-                        Item = new Item
-                        {
-                            AppliedDatetime   = Convert.ToDateTime("2017/5/29 10:23:58"),
-                            AppliedDepartment = "肛肠科",
-                            AppliedDoctor = "赖小燕",
-                            CheckSite = "前列腺",
-                            ClinicDiagnose = "前列腺炎",
-                            StudyFee = "$500"
-                        }
+                        AppliedDatetime = Convert.ToDateTime("2017/5/29 10:23:58"),
+                        AppliedDepartment = "肛肠科",
+                        AppliedDoctor = "赖小燕",
+                        CheckSite = "前列腺",
+                        ClinicDiagnose = "前列腺炎",
+                        StudyFee = "$500",
+                        ExamName = "前列腺全切术"
                     },
                     new Reservation
                     {
-                        Id="2",
+                        Id = "2",
                         Date = Convert.ToDateTime("2017/5/30"),
                         BeginTime = Convert.ToDateTime("2017/5/30 14:00:00"),
                         EndTime = Convert.ToDateTime("2017/5/30 14:15:00"),
                         Department = "妇科",
                         Status = "0",
-                        Item = new Item
-                        {
-                            AppliedDatetime   = Convert.ToDateTime("2017/5/29 10:23:58"),
-                            AppliedDepartment = "超声科",
-                            AppliedDoctor = "赖小燕",
-                            CheckSite = "子宫",
-                            ClinicDiagnose = "子宫肌瘤",
-                            StudyFee = "$500"
-                        }
+                        AppliedDatetime = Convert.ToDateTime("2017/5/29 10:23:58"),
+                        AppliedDepartment = "超声科",
+                        AppliedDoctor = "赖小燕",
+                        CheckSite = "子宫",
+                        ClinicDiagnose = "子宫肌瘤",
+                        StudyFee = "$500",
+                        ExamName = "子宫全切术"
+
                     }
-                }
-            );
+                };
+            //);
         }
 
         /// <summary>
@@ -82,10 +79,9 @@ namespace WxMasApi
         /// <param name="date"></param>
         /// <param name="reservationId"></param>
         /// <returns></returns>
-        public string GetTimeRangesInDate(DateTime date, string reservationId)
+        public List<TimeRange> GetTimeRangesInDate(DateTime date, string reservationId)
         {
-            return JsonHelper.Serialize
-            (
+            return //JsonHelper.Serialize(
                 new List<TimeRange>
                 {
                     new TimeRange
@@ -112,8 +108,8 @@ namespace WxMasApi
                         BeginTime = Convert.ToDateTime("2017/5/30 15:20:00"),
                         EndTime = Convert.ToDateTime("2017/5/30 15:35:00")
                     }
-                }
-            );
+                };
+            //);
         }
 
         /// <summary>

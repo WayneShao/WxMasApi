@@ -69,7 +69,6 @@
   <ItemGroup>
     <Compile Include="Common\JsonHelper.cs" />
     <Compile Include="IWxMasService.cs" />
-    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Reservation.cs" />
     <Compile Include="Model\TimeRange.cs" />
     <Compile Include="Model\UserInfo.cs" />

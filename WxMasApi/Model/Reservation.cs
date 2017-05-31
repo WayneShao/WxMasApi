@@ -19,6 +19,18 @@ namespace WxMasApi.Model
         [DataMember]
         public DateTime EndTime { get; set; }
         [DataMember]
-        public Item Item { get; set; }
+        public string ExamName { get; set; }
+        [DataMember]
+        public string CheckSite { get; set; }
+        [DataMember]
+        public string StudyFee { get; set; }
+        [DataMember]
+        public string AppliedDepartment { get; set; }
+        [DataMember]
+        public string AppliedDoctor { get; set; }
+        [DataMember]
+        public DateTime AppliedDatetime { get; set; }
+        [DataMember]
+        public string ClinicDiagnose { get; set; }
     }
 }

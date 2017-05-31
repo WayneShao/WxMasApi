@@ -5,19 +5,22 @@
       <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\iwxmasservice.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\wxmasservice.svc.cs</string>
+      <string>D:\Visual Studio 2017\Projects\WxMasApi\WxMasApi\WxMasService.svc.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\model\reservation.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Visual Studio 2017\Projects\WxMasApi\WxMasApi\Model\UserInfo.cs</string>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\model\userinfo.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Visual Studio 2017\Projects\WxMasApi\WxMasApi\RetJson.cs</string>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\retjson.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>WxMasApi</string>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\model\item.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>d:\visual studio 2017\projects\wxmasapi\wxmasapi\model\timerange.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
